@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="belirli method calistirma">
+    <test name="satis fonksiyonlari testi">
+    <classes>
+        <class name="tests.day13.C01_Pages">
+            <methods>
+                <exclude name="test">
+                    <!-- Todo calistiracagimiz method sayisi az oldugunda include ile istedigimz kdr secebilir-->
+                    <!-- Todo calistirmayacagimiz method sayisi az oldugunda exclude ile istedigimz kdr secebilir-->
+                    <!-- Todo include ve exclude tag'lari istedigimiz kadar alt alta yazilabilir -->
+                </exclude>
+            </methods>
+        </class>
+    </classes>
+    </test>
+</suite>

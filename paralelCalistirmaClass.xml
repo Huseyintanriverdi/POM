@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="paralel class calistirma">
+    <test name="paralel calisma 1">
+        <classes>
+            <class name="tests.day13.C02_PagesFacebook"></class>
+            <class name="tests.day_16.C02_WebTable"></class>
+            <class name="tests.day_19.C02_WindowHandleRaporlu"></class>
+            <class name="tests.day_17.C01_WebTables"></class>
+        </classes>
+    </test>
+</suite>
