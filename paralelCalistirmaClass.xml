@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="paralel class calistirma">
+<suite name="paralel class calistirma" parallel="classes" thread-count="2" verbose="3">
     <test name="paralel calisma 1">
         <classes>
             <class name="tests.day13.C02_PagesFacebook"></class>
