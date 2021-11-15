@@ -10,7 +10,7 @@ import pages.AmazonPage;
 import utilities.TestBase;
 
 public class C01_Pages extends TestBase {
-// amazon sayfasina gidip
+// amazon     sayfasina gidip
 // nutella icin arama yapin
 // sonuc sayisini yazdirin ve sonuc yazisinin nutella icerdigini test edin
     @Test(groups = "birinciGrup")
